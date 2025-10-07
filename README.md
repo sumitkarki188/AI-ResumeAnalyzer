@@ -51,7 +51,7 @@ Before you begin, ensure you have:
 ## 🏗️ Local Development Setup
 
 ### 1. Clone the Repository
-git clone https://github.com/your-username/resume-analyzer.git
-cd resume-analyzer
-install the dependencies
-npm run dev
+git clone https://github.com/your-username/resume-analyzer.git  
+cd resume-analyzer  
+install the dependencies  
+npm run dev  
