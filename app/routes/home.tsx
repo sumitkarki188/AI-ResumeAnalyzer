@@ -5,6 +5,7 @@ import Navbar from "~/components/navbar";
 import React, { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router';
 import { usePuterStore } from '~/lib/puter'
+import Footer from "~/components/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -42,6 +43,7 @@ useEffect(()=>{
           </div>
         )}
       </section>
+      <Footer></Footer>
     </main>
   );
 }
