@@ -1,87 +1,54 @@
-# Welcome to React Router!
+# 🎯 AI-Powered Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An intelligent resume analysis tool that provides ATS (Applicant Tracking System) scores and personalized improvement suggestions using AI. Upload your resume, specify the job details, and get instant feedback to optimize your application.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://resume-analyzer1-7wzq.onrender.com)
+[![React Router](https://img.shields.io/badge/React%20Router-v7-blue)](https://reactrouter.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
 
-## Features
+## 🌟 Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- **📄 PDF Upload**: Drag & drop or click to upload resume files (up to 20MB)
+- **🤖 AI Analysis**: Powered by Puter AI for intelligent resume feedback
+- **📊 ATS Scoring**: Get compatibility scores for Applicant Tracking Systems
+- **💡 Smart Suggestions**: Receive personalized improvement recommendations
+- **🎨 Modern UI**: Clean, responsive design with Tailwind CSS
+- **⚡ Fast Performance**: Built with Vite and React Router v7
+- **🔒 Secure Storage**: Resume data stored securely with Puter
 
-## Getting Started
+## 🚀 Live Demo
 
-### Installation
+Visit the live application: [https://resume-analyzer1-7wzq.onrender.com](https://resume-analyzer1-7wzq.onrender.com)
 
-Install the dependencies:
+## 🛠️ Technologies Used
 
-```bash
-npm install
-```
+### Frontend
+- **React 19** - UI library
+- **React Router v7** - Routing with SSR support
+- **TypeScript** - Type safety
+- **Tailwind CSS v4** - Styling
+- **Vite 7** - Build tool
 
-### Development
+### Libraries & Tools
+- **PDF.js** - PDF rendering and conversion
+- **React Dropzone** - File upload functionality
+- **Zustand** - State management
+- **Puter** - Cloud storage and AI services
 
-Start the development server with HMR:
+### Deployment
+- **Render** - Hosting platform
+- **GitHub** - Version control
 
-```bash
-npm run dev
-```
+## 📋 Prerequisites
 
-Your application will be available at `http://localhost:5173`.
+Before you begin, ensure you have:
 
-## Building for Production
+- **Node.js** (v18 or higher)
+- **npm** or **yarn** package manager
+- **Git** installed
+- **Puter Account** (for AI and storage features)
 
-Create a production build:
+## 🏗️ Local Development Setup
 
-```bash
-npm run build
-```
+### 1. Clone the Repository
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
