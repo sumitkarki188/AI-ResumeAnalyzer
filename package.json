@@ -5,7 +5,7 @@
   "scripts": {
     "build": "vite build",
      "dev": "vite",
-    "start": "react-router-serve ./build/server/index.js",
+    "start": "vite preview",
      "preview": "vite preview",
     "typecheck": "react-router typegen && tsc"
   },
